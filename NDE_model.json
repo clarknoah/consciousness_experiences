@@ -1,0 +1,1455 @@
+{
+    "GUID": "57d8bd90-4af0-11ea-8161-af23909fd12e",
+    "modelName": "NDE",
+    "code": "",
+    "lastModifTS": "2020-04-30T22:54:20.827Z",
+    "persistenceSchemaVersion": "3",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "collectionName": "Observer",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cef52440-4af0-11ea-8161-af23909fd12e",
+                    "name": "firstName",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "sampleName": "",
+                    "isPatternField": true,
+                    "error": {}
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d53c80a0-4af0-11ea-8161-af23909fd12e",
+                    "name": "lastName",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d96f2dd0-4af0-11ea-8161-af23909fd12e",
+                    "name": "New property key",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [
+                        "NDERF approved researcher may contact me",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8ec74720-4afc-11ea-8161-af23909fd12e",
+                    "name": "contactResearcher",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [
+                        "male"
+                    ],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a064cbd0-4c26-11ea-8161-af23909fd12e",
+                    "name": "gender",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [
+                        "cef52440-4af0-11ea-8161-af23909fd12e"
+                    ],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bd5e1ed0-4af0-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            },
+            "name": "Observer",
+            "error": {}
+        },
+        {
+            "GUID": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "collectionName": "NDE",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "33bed6a0-4af1-11ea-8161-af23909fd12e",
+                    "name": "type",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7e687830-4cec-11ea-8161-af23909fd12e",
+                    "name": "dateEventBegan",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "04d92040-4ced-11ea-8161-af23909fd12e",
+                    "name": "dateEventEnded",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "23aecd80-4ced-11ea-8161-af23909fd12e",
+                    "name": "dateEventSubmitted",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ed9346c0-4af0-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            },
+            "name": "NDE",
+            "error": {}
+        },
+        {
+            "GUID": "f2a14350-4af1-11ea-8161-af23909fd12e",
+            "collectionName": "DeathPronouncement",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f2a45090-4af1-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "196529b0-4af3-11ea-8161-af23909fd12e",
+            "collectionName": "VerifiableClaim",
+            "code": "",
+            "type": "object",
+            "description": "### Description\nNode that focuses on statements made in the dream of events that occurred in reality based at a time when the were outside of the normal state of consciousness",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "196836f0-4af3-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "624276a0-4af4-11ea-8161-af23909fd12e",
+            "collectionName": "New node label",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "62470a80-4af4-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "name": "Book",
+            "error": {}
+        },
+        {
+            "GUID": "02b064b0-4afc-11ea-8161-af23909fd12e",
+            "collectionName": "LanguageRecord",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "02b0b2d0-4afc-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "b233ba90-4afc-11ea-8161-af23909fd12e",
+            "collectionName": "ContactRules",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b2387580-4afc-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "80fd6ef0-4aff-11ea-8161-af23909fd12e",
+            "collectionName": "Question",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8101dbc0-4aff-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "7ec188a0-4bc3-11ea-8161-af23909fd12e",
+            "collectionName": "Experience",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ae8e2ac0-4bc3-11ea-8161-af23909fd12e",
+                    "name": "description",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ce3ea7a0-4bc3-11ea-8161-af23909fd12e",
+                    "name": "question",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7ec224e0-4bc3-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "name": "Theme",
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+            "collectionName": "BeliefSystem",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "19d76080-4bc4-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "ab0aee70-4c26-11ea-8161-af23909fd12e",
+            "collectionName": "Gender",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ab0f8250-4c26-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "dc7ded90-4c26-11ea-8161-af23909fd12e",
+            "collectionName": "Circumstance",
+            "code": "",
+            "type": "object",
+            "description": "Describes the circumstances associated with the NDE",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "dc82a880-4c26-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "d4fcb0a0-4c31-11ea-8161-af23909fd12e",
+            "collectionName": "TRANSLATION",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d4fd9b00-4c31-11ea-8161-af23909fd12e"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "ed93bbf0-4af0-11ea-8161-af23909fd12e",
+            "name": "OBSERVED",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "ba9a8aa0-4af3-11ea-8161-af23909fd12e",
+            "name": "witnessed",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ba99a040-4af3-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "196529b0-4af3-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "d4c833a0-4af3-11ea-8161-af23909fd12e",
+            "name": "VERIFIES",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "196529b0-4af3-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "efb0ef40-4af3-11ea-8161-af23909fd12e",
+            "name": "HAS",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "f2a14350-4af1-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "6d322560-4af4-11ea-8161-af23909fd12e",
+            "name": "Authored",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ba99a040-4af3-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "624276a0-4af4-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "59808080-4af8-11ea-8161-af23909fd12e",
+            "name": "REFERENCES",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "624276a0-4af4-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "b0027f80-4af8-11ea-8161-af23909fd12e",
+            "name": "WITNESSED",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "196529b0-4af3-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "bef00fd0-4af8-11ea-8161-af23909fd12e",
+            "name": "AUTHORED",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "624276a0-4af4-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "02b19d30-4afc-11ea-8161-af23909fd12e",
+            "name": "HAS_RECORD",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "02b064b0-4afc-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "3565cee0-4afc-11ea-8161-af23909fd12e",
+            "name": "TRANSLATOR",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "02b064b0-4afc-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "49344dc0-4afc-11ea-8161-af23909fd12e",
+            "name": "TRANSLATED_FROM",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "02b064b0-4afc-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "02b064b0-4afc-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "b78d5b90-4afc-11ea-8161-af23909fd12e",
+            "name": "HAS_CONTACT_RULE",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "b233ba90-4afc-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "a6634160-4aff-11ea-8161-af23909fd12e",
+            "name": "ANSWEREE",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "80fd6ef0-4aff-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "aec603b0-4aff-11ea-8161-af23909fd12e",
+            "name": "ASSOCIATED_WITH",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "80fd6ef0-4aff-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "7ec3ab80-4bc3-11ea-8161-af23909fd12e",
+            "name": "HAS ",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "7ec188a0-4bc3-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "19d8e720-4bc4-11ea-8161-af23909fd12e",
+            "name": "HAS_DURING_EVENT",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "560b5d40-4bc4-11ea-8161-af23909fd12e",
+            "name": "HAS_CURRENTLY",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "ae6208b0-4c26-11ea-8161-af23909fd12e",
+            "name": "IDENTIFIES_AS",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ab0aee70-4c26-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "f6ade080-4c26-11ea-8161-af23909fd12e",
+            "name": "HAS",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "dc7ded90-4c26-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "eb4dd830-4c30-11ea-8161-af23909fd12e",
+            "name": "EDITED",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "d4ff21a0-4c31-11ea-8161-af23909fd12e",
+            "name": "HAS",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "d4fcb0a0-4c31-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "GUID": "b295d1d0-4ceb-11ea-8161-af23909fd12e",
+            "name": "HAS_AFTER_EVENT",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+            "childField": [],
+            "childCardinality": "1",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "bd56f2e0-4af0-11ea-8161-af23909fd12e": "Observer",
+        "cef52440-4af0-11ea-8161-af23909fd12e": "firstName",
+        "d53c80a0-4af0-11ea-8161-af23909fd12e": "lastName",
+        "d96f2dd0-4af0-11ea-8161-af23909fd12e": "New property key",
+        "ed92f8a0-4af0-11ea-8161-af23909fd12e": "NDE",
+        "ed93bbf0-4af0-11ea-8161-af23909fd12e": "OBSERVED",
+        "33bed6a0-4af1-11ea-8161-af23909fd12e": "type",
+        "f2a14350-4af1-11ea-8161-af23909fd12e": "DeathPronouncement",
+        "196529b0-4af3-11ea-8161-af23909fd12e": "VerifiableClaim",
+        "ba9a8aa0-4af3-11ea-8161-af23909fd12e": "witnessed",
+        "d4c833a0-4af3-11ea-8161-af23909fd12e": "VERIFIES",
+        "efb0ef40-4af3-11ea-8161-af23909fd12e": "HAS",
+        "624276a0-4af4-11ea-8161-af23909fd12e": "Book",
+        "6d322560-4af4-11ea-8161-af23909fd12e": "Authored",
+        "59808080-4af8-11ea-8161-af23909fd12e": "REFERENCES",
+        "b0027f80-4af8-11ea-8161-af23909fd12e": "WITNESSED",
+        "bef00fd0-4af8-11ea-8161-af23909fd12e": "AUTHORED",
+        "02b064b0-4afc-11ea-8161-af23909fd12e": "LanguageRecord",
+        "02b19d30-4afc-11ea-8161-af23909fd12e": "HAS_RECORD",
+        "3565cee0-4afc-11ea-8161-af23909fd12e": "TRANSLATOR",
+        "49344dc0-4afc-11ea-8161-af23909fd12e": "TRANSLATED_FROM",
+        "b233ba90-4afc-11ea-8161-af23909fd12e": "ContactRules",
+        "b78d5b90-4afc-11ea-8161-af23909fd12e": "HAS_CONTACT_RULE",
+        "8ec74720-4afc-11ea-8161-af23909fd12e": "contactResearcher",
+        "80fd6ef0-4aff-11ea-8161-af23909fd12e": "Question",
+        "a6634160-4aff-11ea-8161-af23909fd12e": "ANSWEREE",
+        "aec603b0-4aff-11ea-8161-af23909fd12e": "ASSOCIATED_WITH",
+        "7ec188a0-4bc3-11ea-8161-af23909fd12e": "Experience",
+        "7ec3ab80-4bc3-11ea-8161-af23909fd12e": "HAS ",
+        "ae8e2ac0-4bc3-11ea-8161-af23909fd12e": "description",
+        "ce3ea7a0-4bc3-11ea-8161-af23909fd12e": "question",
+        "19d69d30-4bc4-11ea-8161-af23909fd12e": "BeliefSystem",
+        "19d8e720-4bc4-11ea-8161-af23909fd12e": "HAS_DURING_EVENT",
+        "560b5d40-4bc4-11ea-8161-af23909fd12e": "HAS_CURRENTLY",
+        "a064cbd0-4c26-11ea-8161-af23909fd12e": "gender",
+        "ab0aee70-4c26-11ea-8161-af23909fd12e": "Gender",
+        "ae6208b0-4c26-11ea-8161-af23909fd12e": "IDENTIFIES_AS",
+        "dc7ded90-4c26-11ea-8161-af23909fd12e": "Circumstance",
+        "f6ade080-4c26-11ea-8161-af23909fd12e": "HAS",
+        "eb4dd830-4c30-11ea-8161-af23909fd12e": "EDITED",
+        "d4fcb0a0-4c31-11ea-8161-af23909fd12e": "TRANSLATION",
+        "d4ff21a0-4c31-11ea-8161-af23909fd12e": "HAS",
+        "b295d1d0-4ceb-11ea-8161-af23909fd12e": "HAS_AFTER_EVENT",
+        "7e687830-4cec-11ea-8161-af23909fd12e": "dateEventBegan",
+        "04d92040-4ced-11ea-8161-af23909fd12e": "dateEventEnded",
+        "23aecd80-4ced-11ea-8161-af23909fd12e": "dateEventSubmitted"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "57d8e4a0-4af0-11ea-8161-af23909fd12e"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "57d8e4a1-4af0-11ea-8161-af23909fd12e"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2020-02-09T03:57:51.464Z",
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.14",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "3.5.1"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+                        "x": 1434.095965343856,
+                        "y": 42.333333333333236,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+                        "x": 641.9999999999995,
+                        "y": 639.3333333333329,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ed93bbf0-4af0-11ea-8161-af23909fd12e",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f2a14350-4af1-11ea-8161-af23909fd12e",
+                        "x": 355.6666666666667,
+                        "y": 963.0000000000008,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "196529b0-4af3-11ea-8161-af23909fd12e",
+                        "x": 857.3333333333338,
+                        "y": 178.00000000000026,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ba9a8aa0-4af3-11ea-8161-af23909fd12e",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "d4c833a0-4af3-11ea-8161-af23909fd12e",
+                        "x": 80,
+                        "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "efb0ef40-4af3-11ea-8161-af23909fd12e",
+                        "x": 100,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "624276a0-4af4-11ea-8161-af23909fd12e",
+                        "x": 1077.6666666666677,
+                        "y": 331.3333333333346,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "6d322560-4af4-11ea-8161-af23909fd12e",
+                        "x": 120,
+                        "y": 120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "59808080-4af8-11ea-8161-af23909fd12e",
+                        "x": 140,
+                        "y": 140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b0027f80-4af8-11ea-8161-af23909fd12e",
+                        "x": 160,
+                        "y": 160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "bef00fd0-4af8-11ea-8161-af23909fd12e",
+                        "x": 180,
+                        "y": 180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "02b064b0-4afc-11ea-8161-af23909fd12e",
+                        "x": 645.5759983497071,
+                        "y": 51.029339934503525,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "02b19d30-4afc-11ea-8161-af23909fd12e",
+                        "x": 200,
+                        "y": 200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "3565cee0-4afc-11ea-8161-af23909fd12e",
+                        "x": 220,
+                        "y": 220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "49344dc0-4afc-11ea-8161-af23909fd12e",
+                        "x": 240,
+                        "y": 240,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b233ba90-4afc-11ea-8161-af23909fd12e",
+                        "x": 1694.5826196333287,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "b78d5b90-4afc-11ea-8161-af23909fd12e",
+                        "x": 260,
+                        "y": 260,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "80fd6ef0-4aff-11ea-8161-af23909fd12e",
+                        "x": 1347.3306848198854,
+                        "y": 449.4612871251406,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "a6634160-4aff-11ea-8161-af23909fd12e",
+                        "x": 280,
+                        "y": 280,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "aec603b0-4aff-11ea-8161-af23909fd12e",
+                        "x": 300,
+                        "y": 300,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7ec188a0-4bc3-11ea-8161-af23909fd12e",
+                        "x": 360.1477661132812,
+                        "y": 640.4785461425785,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "7ec3ab80-4bc3-11ea-8161-af23909fd12e",
+                        "x": 320,
+                        "y": 320,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+                        "x": 1581.6825062179644,
+                        "y": 750.3520792140413,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "19d8e720-4bc4-11ea-8161-af23909fd12e",
+                        "x": 340,
+                        "y": 340,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "560b5d40-4bc4-11ea-8161-af23909fd12e",
+                        "x": 360,
+                        "y": 360,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "ab0aee70-4c26-11ea-8161-af23909fd12e",
+                        "x": 1685.2224476221993,
+                        "y": 206.6066625409353,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ae6208b0-4c26-11ea-8161-af23909fd12e",
+                        "x": 380,
+                        "y": 380,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "dc7ded90-4c26-11ea-8161-af23909fd12e",
+                        "x": 640.3757685783379,
+                        "y": 962,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f6ade080-4c26-11ea-8161-af23909fd12e",
+                        "x": 400,
+                        "y": 400,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "eb4dd830-4c30-11ea-8161-af23909fd12e",
+                        "x": 420,
+                        "y": 420,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "d4fcb0a0-4c31-11ea-8161-af23909fd12e",
+                        "x": 923.4090812830138,
+                        "y": 966.1213325081868,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "d4ff21a0-4c31-11ea-8161-af23909fd12e",
+                        "x": 440,
+                        "y": 440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b295d1d0-4ceb-11ea-8161-af23909fd12e",
+                        "x": 460,
+                        "y": 460,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "selectedCollections": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "bd56f2e0-4af0-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "ed92f8a0-4af0-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "f2a14350-4af1-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "196529b0-4af3-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "624276a0-4af4-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "02b064b0-4afc-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "b233ba90-4afc-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "80fd6ef0-4aff-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "7ec188a0-4bc3-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "19d69d30-4bc4-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "ab0aee70-4c26-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "dc7ded90-4c26-11ea-8161-af23909fd12e",
+                            "size": 100
+                        },
+                        {
+                            "GUID": "d4fcb0a0-4c31-11ea-8161-af23909fd12e",
+                            "size": 100
+                        }
+                    ],
+                    "buckets": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false
+                },
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "displayColorPicker": false,
+                "expandCollections": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false
+        }
+    }
+}
