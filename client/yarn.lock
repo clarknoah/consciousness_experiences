@@ -3474,9 +3474,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -9774,6 +9774,11 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   integrity sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
   dependencies:
     has-flag "^4.0.0"
+
+survey-react@^1.7.7:
+  version "1.9.61"
+  resolved "https://registry.yarnpkg.com/survey-react/-/survey-react-1.9.61.tgz#663e6b1e322ccd57ee4a00ea6a81ee9e138a18a0"
+  integrity sha512-x1jWpnZiYJegGv22aJ2/dT9JBjBfM/kO1pTZrBwEkK3eTQvS5BLxhWFao4IMx7OAxWQHhaYiT6Lt/v2YGSZpiA==
 
 svg-parser@^2.0.0:
   version "2.0.4"
